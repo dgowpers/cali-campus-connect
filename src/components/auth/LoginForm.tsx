@@ -5,7 +5,7 @@ import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle }
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { useToast } from "@/components/ui/use-toast";
-import { Google, LogIn } from "lucide-react";
+import { LogIn, Mail } from "lucide-react";
 
 const LoginForm = () => {
   const { toast } = useToast();
@@ -83,7 +83,7 @@ const LoginForm = () => {
           className="w-full" 
           onClick={handleGoogleLogin}
         >
-          <Google className="mr-2 h-4 w-4" />
+          <Mail className="mr-2 h-4 w-4" />
           Google
         </Button>
       </CardContent>
