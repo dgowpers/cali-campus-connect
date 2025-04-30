@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,7 +62,30 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				// CaliConnect theme colors
+				"cc-blue": {
+					100: "#E6F0FB",
+					200: "#B3D1F4",
+					300: "#80B1EC",
+					400: "#4D92E5",
+					500: "#1976D2",
+					600: "#1459A1",
+					700: "#0F3C70",
+					800: "#0A1F3F",
+					900: "#05101E",
+				},
+				"cc-gold": {
+					100: "#FFF8E1",
+					200: "#FFECB3",
+					300: "#FFE082",
+					400: "#FFD54F",
+					500: "#FFC107",
+					600: "#FFB300",
+					700: "#FFA000",
+					800: "#FF8F00",
+					900: "#FF6F00",
+				},
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
