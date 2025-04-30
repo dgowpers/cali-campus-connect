@@ -14,7 +14,7 @@ const Index = () => {
           <h1 className="text-2xl font-bold">CaliConnect</h1>
           <Button 
             variant="outline" 
-            className="text-white border-white hover:bg-white hover:text-cc-blue-700"
+            className="text-black border-white hover:bg-white hover:text-cc-blue-700"
             onClick={() => navigate("/login")}
           >
             Sign In
@@ -42,7 +42,7 @@ const Index = () => {
                 <Button 
                   variant="outline" 
                   size="lg"
-                  className="text-white border-white hover:bg-white hover:text-cc-blue-700"
+                  className="text-black border-white hover:bg-white hover:text-cc-blue-700"
                 >
                   Learn More
                 </Button>
